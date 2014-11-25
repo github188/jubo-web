@@ -1,0 +1,17 @@
+<ul>
+  <li class="{% if page.overview %}current{% endif %}">
+    <a href="/">首页</a>
+  </li>
+  <li class="{% if page.url contains '/docs/' %}current{% endif %}">
+    <a href="/docs/home/">文档</a>
+  </li>
+  <li class="{% if page.author %}current{% endif %}">
+    <a href="/news/">动态</a>
+  </li>
+  <li>
+    <a href="{{ site.help_url }}">帮助</a>
+  </li>
+  <li>
+    <a href="{{ site.repository }}"><span class="hide-on-mobiles">Fork on </span>GitHub</a>
+  </li>
+</ul>
