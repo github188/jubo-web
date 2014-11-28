@@ -2,13 +2,13 @@
   <aside>
     <ul>
       <li class="{% if page.title == 'News' %}current{% endif %}">
-        <a href="/news/">All News</a>
+        <a href="/news/">所有文章</a>
       </li>
       <li class="{% if page.title == 'Releases' %}current{% endif %}">
-        <a href="/news/releases/">Jekyll Releases</a>
+        <a href="/news/releases/">版本记录</a>
       </li>
     </ul>
-    <h4>Recent Releases</h4>
+    <h4>最近版本</h4>
     <ul>
       {% for post in site.categories.release limit:5 %}
       <li class="{% if page.title == post.title %}current{% endif %}">
@@ -16,10 +16,10 @@
       </li>
       {% endfor %}
       <li>
-        <a href="/docs/history/">History »</a>
+        <a href="/docs/history/">更多 »</a>
       </li>
     </ul>
-    <h4>Other News</h4>
+    <h4>其他文章</h4>
     <ul>
         {% for post in site.posts %}
         {% unless post.categories contains 'release' %}

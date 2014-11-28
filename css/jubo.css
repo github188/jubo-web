@@ -15,12 +15,6 @@ aside h4 {
 body > footer {
     padding-bottom: 0;
 }
-.jekyllcn-footer {
-    background: #333;
-}
-.jekyllcn-footer p {
-    margin: 0;
-}
 
 .doc-meta,
 .doc-origin {
