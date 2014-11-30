@@ -24,7 +24,7 @@ jubo-shell.js    # a JavaScript file loaded on both client and server
 打开浏览器输入`http:/localhost:3000`就可以访问应用了，
 你可以修改`jubo-shell.html`里的内容，比如`h1`标题，修改完成保存后，不需要刷新就可以在页面看到修改内容了。
 
-对JuBo应用了有了初步体验之后，让我们开始jubo-shell的开发工作吧。
-jubo-shell的源码发布在GitHub上，你可以获取[全部代码](https://github.com/jubolin/jubo-shell)。
+对JuBo应用了有了初步体验之后，让我们开始`jubo-shell`的开发工作吧。
+`jubo-shell`的源码发布在GitHub上，你可以获取[全部代码](https://github.com/jubolin/jubo-shell)。
 
 

@@ -55,7 +55,7 @@ permalink: /docs/templates/
 > 这里的服务器端指的是OpenWrt设备，客户端指的是浏览器。
 
 ### HTML模板
-Meteor解析应用程序文件夹中的所有HTML文件，确定`<head>`，`<body>`和`<template>`三个顶级标记，并组成一个标准的HTML文件。
+Meteor会解析应用程序文件夹中的所有HTML文件，确定`<head>`，`<body>`和`<template>`三个顶级标记，并组成一个标准的HTML文件。
 
 任何`<head>`标记包含的所有内容将被添加到HTML文件的`head`段，
 同样，任何`<body>`标记包含的所有内容将被添加到HTML文件的`body`段。

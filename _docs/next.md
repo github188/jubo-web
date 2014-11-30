@@ -16,5 +16,5 @@ jubo create --example localmarket
 你也可以通过学习[Meteor](https://www.meteor.com)的相关资料来了解JuBo的核心机制和原理。
 你还可以通过Email(`jubolin@126.com`)或者[issues](https://github.com/jubolin/jubo/issues)来联系我们。
 
-期待你XX的应用!!
+**期待你的应用<em> ！！</em>**
 
