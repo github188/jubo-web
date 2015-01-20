@@ -1,0 +1,31 @@
+<div class="unit one-fifth hide-on-mobiles">
+  <aside>
+    <ul>
+      <li class="{% if page.title == 'Devices' %}current{% endif %}">
+        <a href="/devs/">所有设备</a>
+      </li>
+      <li class="{% if page.title == 'Sensor' %}current{% endif %}">
+        <a href="/devs/sensor/">传感器</a>
+      </li>
+      <li class="{% if page.title == 'Lighting' %}current{% endif %}">
+        <a href="/devs/lighting/">照明</a>
+      </li>
+    </ul>
+    <h4>最新设备</h4>
+    <ul>
+      {% for post in site.categories.devs limit:5 %}
+      <li class="{% if page.title == post.title %}current{% endif %}">
+        <a href="{{ post.url }}"> {{ post.version }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    <h4>设备排行榜</h4>
+    <ul>
+        {% for post in site.tags.likedevs %}
+        <li class="{% if page.title == post.title %}current{% endif %}">
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+  </aside>
+</div>

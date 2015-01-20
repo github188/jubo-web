@@ -1,0 +1,28 @@
+<div class="unit one-fifth hide-on-mobiles">
+  <aside>
+    <ul>
+      <li class="{% if page.title == 'Applications' %}current{% endif %}">
+        <a href="/apps/">所有应用</a>
+      </li>
+      <li class="{% if page.title == 'Media' %}current{% endif %}">
+        <a href="/apps/media/">影音视频</a>
+      </li>
+    </ul>
+    <h4>最新应用</h4>
+    <ul>
+      {% for post in site.categories.apps limit:5 %}
+      <li class="{% if page.title == post.title %}current{% endif %}">
+        <a href="{{ post.url }}"> {{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    <h4>应用排行榜</h4>
+    <ul>
+        {% for post in site.tags.likeapps %}
+        <li class="{% if page.title == post.title %}current{% endif %}">
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+  </aside>
+</div>

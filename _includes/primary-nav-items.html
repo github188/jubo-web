@@ -5,11 +5,11 @@
   <li class="{% if page.url contains '/docs/' %}current{% endif %}">
     <a href="/docs/home/">文档</a>
   </li>
-  <li class="{% if page.author %}current{% endif %}">
-    <a href="/news/">博客</a>
+  <li class="{% if page.url contains '/apps/' %}current{% endif %}">
+    <a href="/apps/">应用</a>
   </li>
-  <li>
-    <a href="{{ site.help_url }}">帮助</a>
+  <li class="{% if page.url contains '/devs/' %}current{% endif %}">
+    <a href="/devs/">设备</a>
   </li>
   <li>
     <a href="{{ site.repository }}">
