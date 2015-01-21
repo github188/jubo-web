@@ -1,23 +1,17 @@
 ---
 layout: docs
-title: 0. 安装JuBo 
-next_section: create-app 
+title: What's JuBo  
+next_section: install 
 permalink: /docs/home/
 ---
 
-你可以通过下面的命令来安装最新版本的`JuBo`，打开终端输入：
+巨柏(JuBo)又名雅鲁藏布江柏木,分布于雅鲁藏布江(Yarlung Zangbo)沿江地段的中国特有珍稀树种。
 
-{% highlight bash %}
-~ $ git clone https://github.com/jubolin/jubo.git
-~ $ cd jubo
-~ $ ./scripts/generat-kit.sh
-{% endhighlight %}
+同时JuBo又是一个极简的OpenWrt应用开发和发布平台，通过JuBo开发者可以使用JavaScript + HTML + CSS快速的开发和发布OpenWrt应用。
 
-当前JuBo开发环境支持`Linux (Ubuntu 14.04 tested)`，对其他平台的支持工作正在进行中。
+开发者不需要关注硬件细节，不需要交叉编译环境，也不需要考虑各种各样的路由器移植，这些工作都交给JuBo就好了，开发者只需要关注应用实现。
 
-完成安装后，你可以参照[快速指南](/docs/create-app)来学习如何开发一个OpenWrt应用。
-该指南以`jubo-shell`应用为例子，展现了JuBo独特实用的特性。
+> JuBo基于Meteor构建，Meteor是一个基于JavaScript的全栈式手机和WEB应用开发平台。
 
-
-
+我们希望JuBo能够构建一个独特的智能无线路由器生态系统，改善用户使用无线路由器的体验，减轻应用开发者的工作。
 

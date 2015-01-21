@@ -1,13 +1,14 @@
 - title: Tutorial 
   docs:
   - home
+  - install 
   - create-app
   - templates 
   - events
   - deploy
   - next
 
-- title: Docs 
+- title: IoT 物联网 
   docs:
 
 

@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: 1. 创建应用 
-prev_section: home 
+prev_section: install 
 next_section: templates
 permalink: /docs/create-app/
 ---

@@ -1,11 +1,10 @@
 ---
 layout: apps_item
 title: 'jubo-shell'
-date: 2015-1-20 19:49:08 -0800
+date: 2014-11-07 19:49:08 -0800
 author: hoolev 
 tags: 
   - tools
-  - likeapps
 categories: [APPS]
 ---
 
