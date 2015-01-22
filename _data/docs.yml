@@ -10,5 +10,7 @@
 
 - title: IoT 物联网 
   docs:
-
+  - iot-architecture
+  - iot-connector
+  - iot-driver
 
