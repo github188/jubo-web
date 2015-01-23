@@ -6,7 +6,7 @@ next_section: iot-driver
 permalink: /docs/iot-connector/
 ---
 
-一个连接器(connector)就是某种物联网协议的具体实现，比如为了支持Alljoyn协议，那么jubo-iot就需要一个实现alljoyn协议的连接器。
+一个连接器(connector)就是某种物联网协议的具体实现，例如为了支持Alljoyn协议，那么jubo-iot就需要一个实现alljoyn协议的连接器。
 连接器的主要职责就是把JuBo与使用特定物联网协议的设备连接起来，为了实现这个目的，连接器需要实现以下功能:
 
 * 设备接入，需要发现设备并获取设备信息，在找到设备匹配驱动的条件下，添加设备。
